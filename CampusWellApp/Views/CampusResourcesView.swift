@@ -42,20 +42,17 @@ struct CampusResourcesView: View {
             url: URL(string: "https://tutoring.sfsu.edu")
         ),
         CampusResource(
-            title: String(localized: "Crisis line (example)"),
+            title: String(localized: "Crisis line & support"),
             detail: String(localized: "If you or someone else is in immediate danger, call campus police or 988."),
             symbolName: "phone.fill",
-            url: URL(string: "tel:988")
+            url: URL(string: "https://caps.sfsu.edu/Emergencies/Emergencies")
         ),
     ]
     var body: some View {
         NavigationStack {
             ScrollView {
                 VStack(alignment: .leading, spacing: 16) {
-                    Text(String(localized: "Replace example links with your school’s real URLs in the app project."))
-                        .font(.subheadline)
-                        .foregroundStyle(.secondary)
-                        .padding(.horizontal, 4)
+                    
                     ForEach(resources) { item in
                         WellnessCard {
                             HStack(alignment: .top, spacing: 14) {
