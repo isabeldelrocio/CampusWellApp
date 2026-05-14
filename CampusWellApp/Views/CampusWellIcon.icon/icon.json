@@ -1,0 +1,77 @@
+{
+  "fill" : {
+    "linear-gradient" : [
+      "srgb:0.84466,0.51457,1.00000,1.00000",
+      "display-p3:0.62313,0.90677,0.96783,1.00000"
+    ],
+    "orientation" : {
+      "start" : {
+        "x" : 0.5,
+        "y" : 1
+      },
+      "stop" : {
+        "x" : 0.5,
+        "y" : 0.3
+      }
+    }
+  },
+  "groups" : [
+    {
+      "layers" : [
+        {
+          "glass" : false,
+          "image-name" : "laurel.leading.svg",
+          "name" : "laurel.leading",
+          "position" : {
+            "scale" : 30,
+            "translation-in-points" : [
+              -275.7875230620117,
+              66.38142929581124
+            ]
+          }
+        },
+        {
+          "blend-mode" : "normal",
+          "glass" : false,
+          "image-name" : "laurel.trailing.svg",
+          "name" : "laurel.trailing",
+          "position" : {
+            "scale" : 30,
+            "translation-in-points" : [
+              248.77600000000007,
+              66.38142929581124
+            ]
+          }
+        },
+        {
+          "blend-mode" : "normal",
+          "glass" : false,
+          "hidden" : false,
+          "image-name" : "figure.mind.and.body.circle.fill.svg",
+          "name" : "figure.mind.and.body.circle.fill",
+          "position" : {
+            "scale" : 40,
+            "translation-in-points" : [
+              0,
+              0
+            ]
+          }
+        }
+      ],
+      "shadow" : {
+        "kind" : "neutral",
+        "opacity" : 0.5
+      },
+      "translucency" : {
+        "enabled" : true,
+        "value" : 0.5
+      }
+    }
+  ],
+  "supported-platforms" : {
+    "circles" : [
+      "watchOS"
+    ],
+    "squares" : "shared"
+  }
+}
